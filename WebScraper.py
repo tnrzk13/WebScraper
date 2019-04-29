@@ -8,7 +8,7 @@ cur = conn.cursor()
 cur.execute("USE speakfeel")
 
 #Get html info from page
-html = urlopen("http://datatest.dev.speakfeel.com/")
+html = urlopen("ENTERURLHERE")
 bsObj = BeautifulSoup(html, "lxml")
 tablesObj = bsObj.find_all("table")
 
