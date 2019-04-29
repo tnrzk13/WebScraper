@@ -65,6 +65,10 @@ SELECT * from speakfeel.teams;
 	
 Now, we have a database of players!
 
+## Running the file
+
+open WebScraper.py, and run Python in the terminal
+
 ## Output
 
 Shows my Output when scraping from the Webpage
