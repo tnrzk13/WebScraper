@@ -19,6 +19,7 @@ In MySQL Workbench go to
 ## Schema
 
 Also available in the Database Schema SQL Text File
+
 +---------------+-------------+------+-----+---------+----------------+
 
 | Field         | Type        | Null | Key | Default | Extra          |
