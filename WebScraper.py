@@ -111,15 +111,19 @@ def getFirstName (fullName):
 #fullName (str)
 #Returns the last name (str)
 def getLastName (fullName):
+    print(fullName)
     if ((fullName=="-") or (fullName=="~missing~")):
         return None
     elif ("," in fullName):
+        fullName = re.sub('[^a-zA-Z0-9_ ,]', '', fullName)
         end = fullName.index(",")
         return fullName[0:end]
     elif ("." in fullName):
+        fullName = re.sub('[^a-zA-Z0-9_ .]', '', fullName)
         end = fullName.index(".")
         return fullName[end+2:]
     else:
+        fullName = re.sub('[^a-zA-Z0-9_ ]', '', fullName)
         end = fullName.index(" ")
         return fullName[end+1:]
 
