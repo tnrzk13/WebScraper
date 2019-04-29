@@ -5,6 +5,7 @@ Parsing a data source:
 ## Password and URL
 
 In WebScraper.py, enter your own db password where it says ENTERPASSWORDHERE
+
 In WebScraper.py, enter the test URL
 
 ## Docker
