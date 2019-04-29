@@ -10,8 +10,9 @@ Python 2:
 
 OR 
 
->> docker build.
->> docker run --name insert_name code_given_by_docker
+docker build.
+
+docker run --name insert_name code_given_by_docker
 
 ## Without Docker
 ## Prereqs
