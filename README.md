@@ -2,6 +2,11 @@
 
 Parsing a data source: 
 
+## Password and URL
+
+In WebScraper.py, enter your own db password where it says ENTERPASSWORDHERE
+		  enter the test URL
+
 ## Docker
 Python 3: 
     docker run -it --rm --name web-scraping-container -v "$PWD":. python:3 python WebScraper.py
@@ -28,8 +33,6 @@ In MySQL Workbench go to
             -> Load Folder Contents 
     Select the speakfeel database
     Click Start Import
-
-In WebScraper.py, enter your own db password where it says ENTERPASSWORDHERE
 
 ## Schema
 
