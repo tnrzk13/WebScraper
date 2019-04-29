@@ -1,7 +1,0 @@
-FROM python:3
-ADD WebScraper.py /
-RUN pip install beautifulsoup4
-RUN pip install PyMySQL
-WORKDIR /
-COPY . /
-CMD python ./WebScraper.py
