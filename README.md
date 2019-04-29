@@ -20,14 +20,23 @@ In MySQL Workbench go to
 
 Also available in the Database Schema SQL Text File
 +---------------+-------------+------+-----+---------+----------------+
+
 | Field         | Type        | Null | Key | Default | Extra          |
+
 +---------------+-------------+------+-----+---------+----------------+
+
 | player_id     | bigint(7)   | NO   | PRI | NULL    | auto_increment |
+
 | jersey_number | bigint(7)   | YES  |     | NULL    |                |
+
 | first_name    | varchar(30) | YES  |     | NULL    |                |
+
 | last_name     | varchar(30) | YES  |     | NULL    |                |
+
 | team          | varchar(30) | YES  |     | NULL    |                |
+
 | pos           | varchar(30) | YES  |     | NULL    |                |
+
 +---------------+-------------+------+-----+---------+----------------+
 
 Since player_id's are auto-incremented, player_id's will only increase in subsequent web scrapes
