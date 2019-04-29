@@ -1,6 +1,6 @@
 # Web Scraping
 
-Parsing a data source: <http://datatest.dev.speakfeel.com/>
+Parsing a data source: 
 
 ## Docker
 Python 3: 
