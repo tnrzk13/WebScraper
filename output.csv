@@ -17,5 +17,5 @@ player_id,jersey_number,first_name,last_name,team,pos
 16,4,NULL,NULL,"Fourth Team",NULL
 17,5,Harlee,Williamson,"Fourth Team",Defence
 18,6,NULL,NULL,"Fourth Team",NULL
-19,7,Ember,"McLloyd (III)","Fourth Team",Goalie
+19,7,Ember,"McLloyd III","Fourth Team",Goalie
 20,8,Eisa,Richards,"Fourth Team","Goalie (alt)"

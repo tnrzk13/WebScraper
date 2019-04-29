@@ -8,6 +8,12 @@ Python 3:
 Python 2:
     docker run -it --rm --name web-scraping-container -v "$PWD":. python:2 python WebScraper.py
 
+OR 
+
+>> docker build.
+>> docker run --name insert_name code_given_by_docker
+
+## Without Docker
 ## Prereqs
 
 Type the following in the command line:
