@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pymysql
 import re
 
-conn = pymysql.connect(host="localhost", user="root", passwd="@9Diw5678", db="speakfeel", charset="utf8")
+conn = pymysql.connect(host="localhost", user="root", passwd="ENTERPASSWORDHERE", db="speakfeel", charset="utf8")
 cur = conn.cursor()
 cur.execute("USE speakfeel")
 
